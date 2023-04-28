@@ -6,18 +6,20 @@ export const personalData = {
 		"Master of Arts, Universidad Nacional Colombia",
 	],
 	contactLinks: [
+		"https://twitter.com/",
+		"https://instagram.com/",
+		"https://github.com/DavidRaigozaJ",
 		"mailto:emailto:raigoza.david.j@gmail.com",
-		"https://twitter.com/time_tocode",
-		"https://linkedin.com/aliciarodriguezLi",
-		"https://medium.com/@time2code.ali",
+		
 	],
+
 };
 
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"Hello! My journey in the cryptocurrency world began during my thesis project in Arts, where I proposed new ways to reconstruct social tissue. With Colombia about to sign the peace agreement, the government tasked the National University to rethink symbols and how to rebuild society. After studying at Emerson College in the US, I realized the potential of decentralized technology, such as Bitcoin, to offer a better way forward. During one summer, I created a crypto Peso and became immersed in the finance and crypto community on Twitter. My passion for creating and building drives me to find new opportunities to grow as a person and engineer.",
+		"I'm a former musician turned designer engineer who rediscovered my love for the arts. During my journey, I realized that our relationship with symbols, such as money, can play a crucial role in shaping society and building a better future for our children. In my free time, I love nothing more than spending quality time with my family.",
 	],
 };
 
@@ -31,11 +33,11 @@ export const skills = {
 		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
+		{ icon: "💻", text: "Blockchain Development" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
-		{ icon: "🤖", text: "SQL" },
-		{ icon: "💾", text: "noSQL" },
+		{ icon: "🤖", text: "Nfts" },
+		{ icon: "💾", text: "Next" },
 		{ icon: "📈", text: "Data Structures and Algorithms" },
 	],
 };
@@ -43,35 +45,73 @@ export const skills = {
 
 
 export const professionalData = {
-	title: "Professional Experience and projects",
+	title: "Professional Experience",
 	experiences: [
 		{
-			role: "Data Scientist, Acme Inc. (2021-Present)",
+			role: "Founder and Designer at Pepematilda (2011-present)",
 			description:
-				"Design and implement machine learning models to analyze large datasets and drive business decisions. Collaborate with cross-functional teams to develop and launch new products and features. Provide technical guidance and mentorship to junior data scientists. Conduct regular presentations to stakeholders on the findings and insights generated from data analysis.",
+				"Founded and led a team of 6 professionals from various fields to design a collection of jewelry pieces using CAD and rapid prototyping Currently in the early stages of building an online store to showcase and sell the collection",
 			current: true,
 		},
 
 		{
-			role: "Machine Learning Engineer, XYZ Corp. (2019-2021)",
+			role: "Quanta (Family Fund)",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
-			current: false,
+				"As a co-founder and investor in this family fund, I worked closely with a specialist in capital management to design and implement VaR and fb prophet algorithms for long-term market prediction. Through this experience, I gained valuable insights into disruptive innovation and exponential growth.",
+			current: true,
 		},
 		{
-			role: "Machine Learning Engineer, ABX Corp. (2020-2021)",
+			role: "Intern, Fundicion Gutierrez, 2011",
 			description:
-				"Designed and implemented advanced machine learning algorithms to improve predictive accuracy and performance. Built and maintained scalable machine learning infrastructure using cloud computing platforms. Conducted data exploratory analysis to identify potential use cases and opportunities. Participated in regular code reviews to maintain high quality standards.",
+				"jewelry manufacturing company to learn about the industrial process Participated in markets and learned about the transition from bench jewelry to rapid prototyping",
 			current: false,
 		},
 	],
 };
 
 export const portfolioData = [
+
 	{
-		name: "PepeMatilda",
-		description:"Jewelry",
-		image: "../images/pepepotamous.png"
-	}
-]
+	  name: "Freecodecamp",
+	  description: "Patrick Collins 36 Hour course",
+	  image: "../images/github.png",
+	  url: "https://github.com/your-username/36-hour-blockchain-development",
+	  buttonUrls: [
+		{ label: "Code", url: "https://github.com/DavidRaigozaJ/DavidRaigozaJ/tree/main" },
+		{ label: "Website", url: "https://github.com/DavidRaigozaJ?tab=repositories" }
+	  ]
+	},
+
+	{
+		name: "Nft Marketplace",
+		description: "Marketplace in mumbai",
+		image: "../images/nftmarketplace.png",
+		url: "https://example.com/pepematilda-jewelry",
+		buttonUrls: [
+		  { label: "Code", url: "https://github.com/DavidRaigozaJ/NftFrontEnd" },
+		  { label: "Website", url: "https://nft-front-end-theta.vercel.app/" }
+		]
+	  },
+	{
+	  name: "PepeMatilda Nft",
+	  description: "Nft 3d printable marketplace",
+	  image: "../images/marketpepe.png",
+	  url: "https://example.com/pepematilda-jewelry",
+	  buttonUrls: [
+		{ label: "Code", url: "https://github.com/DavidRaigozaJ/pepematildamarket" },
+		{ label: "Website", url: "https://old-pine-4521.on.fleek.co/" }
+	  ]
+	},
+	{
+		name: "PepeMatilda e-commerce",
+		description: "e-commerce and marketing",
+		image: "../images/ecommerce.png",
+		url: "https://example.com/pepematilda-jewelry",
+		buttonUrls: [
+		  { label: "Website", url: "http://www.pepematilda.com/" },
+		  { label: "Project", url: "https://www.instagram.com/pepe_matilda_/?hl=en" }
+		]
+	  },
+  ];
+  
 

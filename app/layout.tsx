@@ -14,7 +14,7 @@ export default function RootLayout({
 
 			<body className='flex flex-col sm:flex-row'>
 				<Sidebar data={personalData} />
-				<main className='grow-full p-8 sm:p-16 w-full sm:basis-2/3  ml-auto'>
+				<main className='bg-gradient-to-r from-white via-sky-50 to-white grow-full p-8 sm:p-16 w-full sm:basis-2/3  ml-auto'>
 					{children}
 				</main>
 			</body>
