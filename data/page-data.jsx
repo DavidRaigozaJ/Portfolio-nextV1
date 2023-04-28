@@ -77,8 +77,9 @@ export const portfolioData = [
 	  image: "../images/github.png",
 	  url: "https://github.com/your-username/36-hour-blockchain-development",
 	  buttonUrls: [
-		{ label: "Code", url: "https://github.com/DavidRaigozaJ/DavidRaigozaJ/tree/main" },
-		{ label: "Website", url: "https://github.com/DavidRaigozaJ?tab=repositories" }
+		{ label: "Website", url: "https://github.com/DavidRaigozaJ?tab=repositories" },
+		{ label: "Code", url: "https://github.com/DavidRaigozaJ/DavidRaigozaJ/tree/main" }
+		
 	  ]
 	},
 
@@ -88,8 +89,9 @@ export const portfolioData = [
 		image: "../images/nftmarketplace.png",
 		url: "https://example.com/pepematilda-jewelry",
 		buttonUrls: [
-		  { label: "Code", url: "https://github.com/DavidRaigozaJ/NftFrontEnd" },
-		  { label: "Website", url: "https://nft-front-end-theta.vercel.app/" }
+		  { label: "Website", url: "https://nft-front-end-theta.vercel.app/" },
+		  { label: "Code", url: "https://github.com/DavidRaigozaJ/NftFrontEnd" }
+		  
 		]
 	  },
 	{
@@ -108,8 +110,9 @@ export const portfolioData = [
 		image: "../images/ecommerce.png",
 		url: "https://example.com/pepematilda-jewelry",
 		buttonUrls: [
-		  { label: "Website", url: "http://www.pepematilda.com/" },
-		  { label: "Project", url: "https://www.instagram.com/pepe_matilda_/?hl=en" }
+		{ label: "Project", url: "https://www.instagram.com/pepe_matilda_/?hl=en" },
+		  { label: "Website", url: "http://www.pepematilda.com/" }
+		  
 		]
 	  },
   ];
